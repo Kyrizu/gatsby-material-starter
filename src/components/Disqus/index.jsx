@@ -39,10 +39,9 @@ class Disqus extends Component {
       config.pathPrefix,
       postNode.fields.slug
     );
-    console.log(url);
 
     return (
-      <Card className="round-corner md-grid md-cell md-cell--12">
+      <Card className="md-grid md-cell md-cell--12">
         <CardTitle
           title="Comments"
           avatar={<Avatar icon={<FontIcon>comment</FontIcon>} />}
@@ -64,7 +63,6 @@ class Disqus extends Component {
         />
       </Card>
     );
-    console.log(shortname+" "+identifier+" "+title+" "+url+" "+category_id+" "+this.notifyAboutComment)
   }
 }
 
