@@ -39,5 +39,5 @@ module.exports = {
       iconClassName: "text-center fa fa-caret-right"
     }
   ],
-  copyright: "Copyright © 2018. KyrizuDev" // Copyright string for the footer of the website and RSS feed.
+  copyright: " Copyright © 2018. KyrizuDev" // Copyright string for the footer of the website and RSS feed.
 };

@@ -24,7 +24,7 @@ function GetNavList(config) {
       
       NavList.push({
         primaryText: link.label,
-        leftIcon: <FontIcon style={txtcentre} forceSize iconClassName={link.iconClassName} />,
+        leftIcon: <FontIcon forceSize iconClassName={link.iconClassName} />,
         component: "a",
         href: link.url
       });
@@ -38,6 +38,12 @@ function GetNavList(config) {
     leftIcon: <FontIcon>person</FontIcon>,
     component: Link,
     to: "/about/"
+  });
+  NavList.push({
+    primaryText: "Privacy policy",
+    leftIcon: <FontIcon>insert_drive_file</FontIcon>,
+    component: Link,
+    to: "/privacy-policy/"
   });
   return NavList;
 }
