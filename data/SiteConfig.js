@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Kyrizu's blog", // Site title.
-  siteTitleShort: "K Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Dev Blog", // Alternative site title for SEO.
+  siteTitleShort: "Kyrizudev", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "kyrizu dev", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://kyrizudev.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
